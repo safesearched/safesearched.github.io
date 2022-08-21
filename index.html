@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: inherit;
+            color: #009879;
+            background-color: #111;
+            font-size: 1rem;
+            line-height: 1.3rem;
+            justify-content: center;
+            margin: 16px 16px;
+        }
+
+        /* Footer */
+
+
+        .footer a:visited {
+            color: #66859c;
+        }
+
+        .footer a:hover {
+            color: #ffffff;
+        }
+
+        #footer {
+            color: #777888;
+            padding-left: 20px;
+            margin-top: 30px;
+            font-size: 8px;
+        }
+
+        #footer a {
+            color: #777888;
+            display: inline;
+            font-size: 8px;
+        }
+
+        h1, h2 {
+            background-color: Red;
+            padding: 30px;
+            width: 100%;
+            letter-spacing: 2px;
+            color: White;
+            text-align: center;
+        }
+
+        .logo {
+            text-align: center;
+            padding: 40px 10px 0;
+        }
+
+        .generic {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .poweredby {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+<h1>
+    "Sorry"
+</h1>
+<div class="logo">
+
+    <img src="data:image/png;base64,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IyIKICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgIHhtbG5zOkdJTVA9Imh0dHA6Ly93d3cuZ2ltcC5vcmcveG1wLyIKICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICB4bXBNTTpEb2N1bWVudElEPSJnaW1wOmRvY2lkOmdpbXA6MzRjMGE0NWItNTBhNy00OGIwLTgwYWMtYTBlOGJiYjA3ZDFiIgogICB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjI3M2UyYzIyLTBhNzEtNGJhZi1hYTk5LTgyY2YxNzkzOWQ3ZiIKICAgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjYxOGE4MTA5LWRiNTQtNDNhZC1hOGFlLTg0ZWExNGMwNWQ0ZSIKICAgZGM6Rm9ybWF0PSJpbWFnZS9wbmciCiAgIEdJTVA6QVBJPSIyLjAiCiAgIEdJTVA6UGxhdGZvcm09IldpbmRvd3MiCiAgIEdJTVA6VGltZVN0YW1wPSIxNjYxMDU0NTYwMTk0MTQ3IgogICBHSU1QOlZlcnNpb249IjIuMTAuMzIiCiAgIHRpZmY6T3JpZW50YXRpb249IjEiCiAgIHhtcDpDcmVhdG9yVG9vbD0iR0lNUCAyLjEwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDIyOjA4OjIxVDAwOjAyOjM4LTA0OjAwIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAyMjowODoyMVQwMDowMjozOC0wNDowMCI+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAgICBzdEV2dDpjaGFuZ2VkPSIvIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjAwYTY1Mjc2LWIwZWMtNGFiZi04NzgyLWU1NzE2ZGM1MjQ5OCIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iR2ltcCAyLjEwIChXaW5kb3dzKSIKICAgICAgc3RFdnQ6d2hlbj0iMjAyMi0wOC0yMVQwMDowMjo0MCIvPgogICAgPC9yZGY6U2VxPgogICA8L3htcE1NOkhpc3Rvcnk+CiAgPC9yZGY6RGVzY3JpcHRpb24+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz4AlB/aAAAABmJLR0QA8QAAANF9wyDQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5ggVBAIoW/Tc9wAACRNJREFUeNrtnduSwygMRNdU/v+Xsy+bqlmXE9tYQi3p9ONMygZdmgYL+OcfAAAActgwAQDP8H6/3/9Lqm0jrwDkDIASMUPQwAovTNCHPCAMAPJgYII+qu6bygO2qhkAyBmAQDATAZAzAEkIevsPWAY8ji1M0Gf6DWnU8idqHnIGABwQ5GoivLPGDUlDzgC0Vq0rSHD2wyMEnRusOTcjFioM1pNktncSRyhnUFzxdSBmTztaEKBl+47aQxyhnIFxUqF8cqvX1W3/9hziCHIGAGLGBpAzAGDtkgHkDfbgbA2SBmC/xzbwKi3sfLAUyrlxUkE+PZT5Kj9bvuesIqRDxQjKGcUn3+ZfJLVasWWOiSxq847tM/Xr9uAMlUHOT4P76XbiK+3dP8ejNFBxB571IHGn3TPvfmIXNttAzhC0UYBffcfZs60IaDUxKO8OjPJHBDlXJWjWnMFUYtydeiqrTNbe88VfB0DO4HaCKCeS5yATMrVdvJ4eoV4hZsgZGCQKicTgjGKGnIFYknolkrU6rDADWK2eMxNz1Q+CkDNwT6QryRNF0N19GlUvjH8gZ2CQPCRSvFpjq/ixTSrbhU0o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"
+         alt="Spin">
+
+</div>
+<h2>
+    The page you attempted to view is blocked.
+</h2>
+<p>
+<div>Web Address: <span id="url">$url</span></div>
+<div>Domain Name: <span id="domain">$domain</span></div>
+<div>Reasoning: <span id="categoryDescription">$categoryDescription</span></div>
+</p>
+<div id="footer" class="footer">
+    <div id="moreInfo" class="generic"></div>
+    <div class="poweredby">
+        Powered by <a href="http://nationaledtech.com/portfolio/manage-spin-safe-browser/">Spin Safe.</a>
+    </div>
+</div>
+<script>
+    const obj = {
+        "0": "Inappropriate Content.",
+        "1062": "Sites with nude or seminude content, may be of non-sexual intent.",
+        "1011": "Websites that contain nude, sexual or other inappropriate content.",
+        "10007": "Search engines that do not allow filtering of inappropriate content.",
+        "10002": "Domains that are normally good but contain sexual or inappropriate content.",
+        "1031": "Websites that allow peer to peer clients, torrent downloads.",
+        "1058": "Websites that allow bypassing website filtering or monitoring.",
+        "1076": "Sites that provide information on, promote, or support the sale of alcoholic beverages or tobacco products and associated paraphernalia.",
+        "1067": "These are URLs, typically IP addresses, which are determined to be part of a Bot network, from which network attacks are launched. Attacks may include SPAM messages, DOS, SQL injections, proxy jacking, and other unsolicited contacts.",
+        "1010": "Discussion or remedies for illegal, illicit, or abused drugs such as heroin, cocaine, or other street drugs. Information on &quot;legal highs&quot;: glue sniffing, misuse of prescription drugs or abuse of other legal substances.&nbsp;",
+        "1027": "Gambling or lottery web sites that invite the use of real or virtual money. Information or advice for placing wagers, participating in lotteries, gambling, or running numbers. Virtual casinos and offshore gambling ventures. Sports picks and betting pools. Virtual sports and fantasy leagues that offer large rewards or request significant wagers. Hotel and Resort sites that do not enable gambling on the site are categorized in Travel or Local Information.",
+        "1054": "Vomit and other bodily functions, bloody clothing, etc.",
+        "1033": "Illegal or questionable access to or the use of communications equipment/software. Development and distribution of programs that may allow compromise of networks and systems. Avoidance of licensing and fees for computer programs and other systems.",
+        "1046": "Sites that support content and languages or hate crime and racism such as Nazi, neo-Nazi, Ku Klux Klan, etc.&nbsp;",
+        "1064": "Criminal activity, how not to get caught, copyright and intellectual property violations, etc.",
+        "1049": "Downloads and discussion of software agents that track a user's keystrokes or monitor their web surfing habits.&nbsp;",
+        "1057": "Phishing, pharming, and other sites that pose as a reputable site, usually to harvest personal information from a user. These sites are typically quite short-lived, so examples don?t last long. Please contact us if you need fresh data.",
+        "1053": "Sites that support cheating and contain such materials, including free essays, exam copies, plagiarism, etc.",
+        "1071": "URLs contained in SPAM.",
+        "1059": "Spyware or Adware sites that provide or promote information gathering or tracking that is unknown to, or without the explicit consent of, the end user or the organization, also unsolicited advertising popups and programs that may be installed on a user's computer.",
+        "1025": "Sales, delivery, or streaming of audio or video content, including sites that provide downloads for such viewers.",
+        "1048": "Sites that advocate violence, depictions, and methods, including game/comic violence and suicide.",
+        "1036": "Sales, reviews, or descriptions of weapons such as guns, knives or martial arts devices, or provide information on their use, accessories, or other modifications.&nbsp;",
+        "1068": "Abortion topics, either pro-life or pro-choice.",
+        "1008": "Methods, means of instruction, or other resources to interpret, affect or influence real events through the use of astrology, spells, curses, magic powers, satanic or supernatural beings. Includes horoscope sites.",
+        "1018": "Dating websites focused on establishing personal relationships.",
+        "1021": "Motion pictures, videos, television, music and programming guides, books, comics, movie theatres, galleries, artists or reviews on entertainment. Performing arts (theatre, vaudeville, opera, symphonies, etc.). Museums, galleries, artist sites (sculpture, photography, etc.).",
+        "1079": "Fashion or glamour magazines, beauty, clothes, cosmetics, style.",
+        "1034": "Game playing or downloading, video games, computer games, electronic games, tips, and advice on games or how to obtain cheat codes. Also includes sites dedicated to selling board games as well as journals and magazines dedicated to game playing. Includes sites that support or host online sweepstakes and giveaways. Includes fantasy sports sites that also host games or game-playing.",
+        "1069": "General health, fitness, well-being, including traditional and non-traditional methods and topics. Medical information on ailments, various conditions, dentistry, psychiatry, optometry, and other specialties. Hospitals and doctor offices. Medical insurance. Cosmetic surgery.",
+        "1038": "Sport hunting, gun clubs, and fishing.",
+        "1078": "Photo and image searches, online photo albums/digital photo exchange, image hosting.",
+        "1026": "Assistance in finding employment, and tools for locating prospective employers, or employers looking for employees.&nbsp;",
+        "1056": "Malicious content including executables, drive-by infection sites, malicious scripts, viruses, trojans, and code.",
+        "1075": "Parked domains are URLs which host limited content or click-through ads which may generate revenue for the hosting entities but generally do not contain content useful to the end user. Also includes Under Construction, folders, and web server default home pages.",
+        "1037": "Sites that pay users in the form of cash or prizes, for clicking on or reading specific links, email, or web pages.",
+        "1022": "Personal websites posted by individuals or groups, as well as blogs.&nbsp;",
+        "1047": "Online storage and posting of files, music, pictures, and other data.",
+        "1044": "Tasteless humor, &quot;get rich quick&quot; sites, and sites that manipulate the browser user experience or client in some unusual, unexpected, or suspicious manner.",
+        "1020": "Conventional or unconventional religious or quasi-religious subjects, as well as churches, synagogues, or other houses of worship.",
+        "1050": "Search interfaces using key words or phrases. Returned results may include text, websites, images, videos, and files.",
+        "1019": "Information on reproduction, sexual development, safe sex practices, sexually transmitted diseases, sexuality, birth control, sexual development, tips for better sex as well as products used for sexual enhancement, and contraceptives.",
+        "1030": "Software, screensavers, icons, wallpapers, utilities, ringtones. Includes downloads that request a donation, and open source projects.&nbsp;",
+        "1014": "These are social networking sites that have user communities where users interact, post messages, pictures, and otherwise communicate. These sites were formerly part of Personal Sites and Blogs but have been removed to this new category to provide differentiation and more granular policy.",
+        "1052": "Advertisements, media, content, and banners.",
+        "1066": "Internet telephony, messaging, VoIP services and related businesses.",
+        "2002": "Web sites offering free web hosting.",
+        "10005": "YouTube contains inappropriate videos and content."
+    };
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const url = urlParams.get('url') || "inappropriate url";
+    const domain = urlParams.get('domain') || "inappropriate domain";
+    const categoryCode = urlParams.get('category') || "0";
+    const categoryDescription = obj[categoryCode] || obj["0"];
+
+    console.log(url, domain, categoryCode, categoryDescription);
+
+    document.getElementById('url').innerHTML = url;
+
+    document.getElementById('domain').innerHTML = domain;
+
+    document.getElementById('categoryDescription').innerHTML = categoryDescription;
+
+    const email = `Should this site be allowed? Please    <a href="mailto:support@nationaledtech.com?subject=SPIN Blocked Site Feedback&amp;body=%0D%0A%0D%0A%0D%0A----------------------------%0D%0ABlocked url: ${encodeURIComponent(url)}">    email us</a> and let us know. `
+    document.getElementById('moreInfo').innerHTML=email;
+</script>
+</body>
